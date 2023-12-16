@@ -7,11 +7,11 @@
  */
 
 /** 导入 abort 接口取消类 */
-import { AbortAxios } from "./abort";
+import AbortAxios from "./abort";
 /** 导入 cache 接口缓存类 */
-import { CacheAxios } from "./cache";
+import CacheAxios from "./cache";
 /** 导入 retry 接口重连类 */
-import { RetryAxios } from "./retry";
+import RetryAxios from "./retry";
 /** 导入 axios 网络传输核心模块 */
 import axios from "axios";
 

@@ -10,7 +10,7 @@
 /** 导入 key 转换工具 */
 import { generateRequestKey } from "../utils/common";
 
-export class RetryAxios {
+export default class RetryAxios {
   /** 构造器 */
   constructor() {
     /** 创建一个重连请求队列 */
