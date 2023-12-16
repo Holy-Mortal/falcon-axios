@@ -320,7 +320,7 @@ export default class FalconAxios {
           this.interceptors,
           response.config.interceptors
         );
-        customResponse(config);
+        customResponse(response);
         /** 响应成功结果 */
         return this.responseResult(response.status, 200)(response);
       },
