@@ -11,6 +11,6 @@ if (!isBrowser()) {
   }
 })();
 
-export const setCacheKey = setCacheKey;
+export const setDefaultKey = setCacheKey;
 
 export default FalconAxios;
